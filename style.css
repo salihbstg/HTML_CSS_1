@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(22, 37, 50);
+    position: fixed;
+    width: 100%;
+}
+.container{
+    width: 1480px;
+    margin: auto;
+    padding: auto;
+    padding: 1.7rem 0;
+}
+.logo{
+    float: left;
+    color: whitesmoke;
+    font-size: 3.2rem;
+    font-weight: bold;
+  
+}
+a{
+
+    text-decoration: none;
+    letter-spacing: 0.6rem;
+    color: whitesmoke;
+    margin: 0 0 0 3rem;
+
+}
+a:hover{
+    transition: 0.32s;
+    color: hsla(200, 94%, 55%);
+    
+}
+.buyukharf{
+    text-transform: uppercase;
+    
+}
+#linkler{
+    float: right;
+    padding: 0 11rem 0 0 ;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#linkler .item{
+   float: left;
+   margin: 0.6rem;
+   font-size: 2.2rem;
+   font-weight: bold;
+}
+#linkler .item a{
+    letter-spacing: 0.3rem;
+ }
+ ul{
+    list-style: none;
+ }
+header{
+    padding-top: 7rem;
+    height: 600px;
+    background-color:rgb(3, 33, 86);
+    text-align: center;
+    
+}
+i{
+    font-size: 4.3rem;
+    color:cornflowerblue;
+    padding-left: 2rem;
+    position: relative;
+    left: 2.4rem;
+}
+#fotoboy,#fotoboy2{
+    padding-top: 8rem;
+    width: 300px;
+    height: auto;
+    padding-bottom: 5rem;
+    padding-right: 2.5rem;
+}
+#baslik3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 4rem;
+}
+footer{
+    width: auto;
+    height: auto;
+    background-color: rgba(90, 75, 35, 0.6);
+}
+footer a{
+    letter-spacing: 0px;
+    font-size: 2rem;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+
+}
+header h1{
+    color: whitesmoke;
+    letter-spacing: 0.5rem;
+    font-size: 7rem;
+}
+#anasayfa #fotoboy,buyukharf{
+    float: left;
+}
+#anasayfa #fotoboy2{
+    float: right;
+}
+.ortayazi{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 20%;
+    padding: 3rem 0px 5rem 0px;
+    margin: 2rem;
+}
+
+#icfoto{
+    width: 21rem;
+    height: auto;
+    padding: 3rem;
+}
+footer #mail_at{
+    float: left;
+}
+footer i{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1.1rem;
+    bottom: 9.36rem;
+    color: darkblue;
+}
+footer h6{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    letter-spacing: 0.3rem;
+    position: absolute;
+    left: 5rem;
+    bottom: 9.5rem;
+    
+}
+.telefon h6{
+    position:absolute;
+    left: 30rem;
+}
+.telefon h6{
+    position: absolute;
+}
+.telefon .ico i{
+    position: absolute;
+    left: 26rem;
+    bottom: 9.55rem;
+}
+.oylesinep{
+    font-size: 3rem;
+}
